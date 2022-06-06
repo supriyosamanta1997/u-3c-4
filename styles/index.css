@@ -1,0 +1,51 @@
+#navbar
+{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: darkkhaki;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#details{
+    height: 300px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+   border: 1px solid red;
+   background-color: darkkhaki;
+}
+#details h3{
+    text-align: center;
+}
+#name
+{
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+#email{
+    display: block;
+    margin-bottom: 10px;
+}
+#address{
+    display: block;
+    margin-bottom: 10px;
+}
+#amount{
+    display: block;
+    margin-bottom: 10px;
+}
+.input{
+    text-align: center;
+    margin: auto;
+    padding: 0px 60px;
+}
+.input:focus{
+    outline: none;
+}
+#submit{
+    display: flex;
+    margin: auto;
+}
